@@ -24,6 +24,8 @@
 //   SLPluralizedStringFromTableInBundle(key, tbl, bundle, n, comment)
 //   SLPluralizedStringWithDefaultValue(key, tbl, bundle, n, val, comment)
 
+#import <Foundation/Foundation.h>
+
 
 @interface NSBundle (Smartling_i18n)
 
