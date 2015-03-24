@@ -85,7 +85,8 @@
 				5C50C1481AC226720049E062 /* SmartlingLib.h */,
 				5C50C1461AC226720049E062 /* Supporting Files */,
 			);
-			path = SmartlingLib;
+			name = SmartlingLib;
+			path = Smartling.i18n/SmartlingLib;
 			sourceTree = "<group>";
 		};
 		5C50C1461AC226720049E062 /* Supporting Files */ = {
@@ -132,7 +133,8 @@
 				C4F6A0C816F318910058DFDA /* pluralfom.c */,
 				C4F6A0B616F3100B0058DFDA /* Supporting Files */,
 			);
-			path = Smartling.i18n;
+			name = Smartling.i18n;
+			path = Smartling.i18n/Smartling.i18n;
 			sourceTree = "<group>";
 		};
 		C4F6A0B616F3100B0058DFDA /* Supporting Files */ = {
@@ -346,7 +348,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = SmartlingLib/Info.plist;
+				INFOPLIST_FILE = Smartling.i18n/SmartlingLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -380,7 +382,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = SmartlingLib/Info.plist;
+				INFOPLIST_FILE = Smartling.i18n/SmartlingLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +500,7 @@
 				5C50C1581AC226730049E062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4F6A0AB16F3100B0058DFDA /* Build configuration list for PBXProject "Smartling.i18n" */ = {
 			isa = XCConfigurationList;
