@@ -29,6 +29,8 @@
 		5C50C15F1AC2268F0049E062 /* pluralfom.c in Sources */ = {isa = PBXBuildFile; fileRef = C4F6A0C816F318910058DFDA /* pluralfom.c */; };
 		5C50C1601AC226960049E062 /* SLLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = C4F6A0B816F3100B0058DFDA /* SLLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C50C1611AC226E00049E062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F6A0B316F3100B0058DFDA /* Foundation.framework */; };
+		5CCD00401ACB7BD7007B5ED8 /* SLLocalization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4F6A0B816F3100B0058DFDA /* SLLocalization.h */; };
+		5CCD00411ACB7BD7007B5ED8 /* SmartlingLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C50C1481AC226720049E062 /* SmartlingLib.h */; };
 		C4F6A0B416F3100B0058DFDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F6A0B316F3100B0058DFDA /* Foundation.framework */; };
 		C4F6A0C316F313080058DFDA /* SLLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = C4F6A0B816F3100B0058DFDA /* SLLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4F6A0C916F318910058DFDA /* floatvalue.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6A0C616F318910058DFDA /* floatvalue.m */; };
@@ -45,6 +47,20 @@
 			remoteInfo = Smartling.i18n;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CCD003F1ACB7BCB007B5ED8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				5CCD00401ACB7BD7007B5ED8 /* SLLocalization.h in CopyFiles */,
+				5CCD00411ACB7BD7007B5ED8 /* SmartlingLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5C50C1441AC226720049E062 /* SmartlingLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartlingLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +192,7 @@
 				5C50C1401AC226720049E062 /* Frameworks */,
 				5C50C1411AC226720049E062 /* Headers */,
 				5C50C1421AC226720049E062 /* Resources */,
+				5CCD003F1ACB7BCB007B5ED8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
